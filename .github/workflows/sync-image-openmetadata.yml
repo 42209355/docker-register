@@ -24,7 +24,7 @@ jobs:
         username: unifri
         password: Kavin0501@
         logout: false
-
+        
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
          skopeo copy docker://docker.getcollate.io/openmetadata/ingestion:1.2.2 docker://registry.cn-hangzhou.aliyuncs.com/kavin0501/ingestion:1.2.2
