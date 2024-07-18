@@ -27,4 +27,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.getcollate.io/openmetadata/db:1.4.5 docker://registry.cn-hangzhou.aliyuncs.com/kavin0501/db:1.4.5
+         skopeo copy docker://docker.getcollate.io/openmetadata/ingestion:1.2.2 docker://registry.cn-hangzhou.aliyuncs.com/kavin0501/ingestion:1.2.2
