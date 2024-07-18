@@ -27,4 +27,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.getcollate.io/openmetadata/postgresql:1.2.3 docker://registry.cn-hangzhou.aliyuncs.com/kavin0501/postgresql:1.2.3
+         skopeo copy docker://docker.getcollate.io/openmetadata/postgresql:1.2.5 docker://registry.cn-hangzhou.aliyuncs.com/kavin0501/postgresql:1.2.5
